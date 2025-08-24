@@ -19,9 +19,11 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 
 ### 🔍 방법론
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ae6223fd-c58e-4d64-87dd-4799abd5a947" width="300"/>
-  <img src="https://github.com/user-attachments/assets/354c17c5-c242-4932-8b77-ca6ed5fa6cf8" width="300"/>
-  <img src="https://github.com/user-attachments/assets/7f891235-a3c8-47eb-8dfd-abd719cf41c2" width="300"/>
+  <img src="https://github.com/user-attachments/assets/ae6223fd-c58e-4d64-87dd-4799abd5a947" width="500"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/354c17c5-c242-4932-8b77-ca6ed5fa6cf8" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7f891235-a3c8-47eb-8dfd-abd719cf41c2" width="400"/>
 </p>
 
 1. **그래프 구성**  
