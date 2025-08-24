@@ -16,10 +16,10 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 
 *참고 논문* [*Predicting drug–drug interactions with knowledge graph embeddings* (Scientific Reports, 2022)](https://www.nature.com/articles/s41598-022-19999-4)  
 
-
 ### 🔍 방법론
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ae6223fd-c58e-4d64-87dd-4799abd5a947" width="500"/>
+  <img src="https://github.com/user-attachments/assets/fd5b2a9f-77db-4a30-aeac-ff61129a1fc2" width="400"/>
+  <img src="https://github.com/user-attachments/assets/ae6223fd-c58e-4d64-87dd-4799abd5a947" width="400"/>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/354c17c5-c242-4932-8b77-ca6ed5fa6cf8" width="400"/>
