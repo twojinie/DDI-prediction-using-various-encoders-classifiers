@@ -33,7 +33,7 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
    - GCN/GAT/GraphSAGE/GIN 등 여러 GNN 비교
 3) **엣지 타입 분류(Phase 2, Classifier)**:  
    - **MLP**, **K‑way predictor**  
-   - Self-Attention 결합 (Attention-MLP, Attention-Kway)
+   - **Self-Attention 결합 (Attention-MLP, Attention-Kway)**
    - 엣지 표현: 노드 임베딩 concat **[h(u) ⊕ h(v)]**
 
 
