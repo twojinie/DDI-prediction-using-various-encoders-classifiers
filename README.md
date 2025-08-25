@@ -9,10 +9,10 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 - 출처: **DrugBank**  
 - **572개 약물**, **37,269개 상호작용(edge)**, **65가지 상호작용 유형(label)**  
 - 각 약물 쌍(edge)에 대해 다양한 **similarity matrix**를 기반으로 특징을 추출  
-  - 약물 구조(Substructure)  
-  - 타겟 단백질(Target)  
-  - 생물학적 경로(Pathway)  
-  - 부작용 정보(Side effect)
+  - 약물 구조(Substructure)  (features_m1.txt)
+  - 타겟 단백질(Target)      (features_m2.txt)
+  - 생물학적 경로(Pathway)   (features_m3.txt)
+  - 부작용 정보(Side effect) (features_m4.txt)
 
 *참고 논문* [*Predicting drug–drug interactions with knowledge graph embeddings* (Scientific Reports, 2022)](https://www.nature.com/articles/s41598-022-19999-4)  
 
