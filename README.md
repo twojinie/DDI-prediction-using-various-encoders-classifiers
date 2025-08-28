@@ -5,7 +5,7 @@
 DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 발생해 약효가 떨어지거나 심각한 부작용이 나타나는 문제로, 환자 안전과 신약 개발 과정에서 매우 중요한 과제입니다.  
 전통적인 in-vitro / in-vivo 실험적 검증에는 높은 비용과 시간이 소요되기 때문에 **그래프 신경망(Graph Neural Networks, GNNs) 인코더**와 **다양한 분류기(Classifier)** 조합을 실험하여, 대규모 복잡한 관계 데이터를 효율적으로 모델링하는 방법을 탐구했습니다.
 
-### 🗂️ 데이터셋
+### - 데이터셋
 - 출처: **DrugBank**  
 - **572개 약물**, **37,269개 상호작용(edge)**, **65가지 상호작용 유형(label)**  
 - 각 약물 쌍(edge)에 대해 다양한 **similarity matrix**를 기반으로 특징을 추출  
@@ -16,7 +16,7 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 
 *참고 논문* [*Predicting drug–drug interactions with knowledge graph embeddings* (Scientific Reports, 2022)](https://www.nature.com/articles/s41598-022-19999-4)  
 
-### 🔍 방법론
+### - 방법론
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fd5b2a9f-77db-4a30-aeac-ff61129a1fc2" width="400"/>
   <img src="https://github.com/user-attachments/assets/ae6223fd-c58e-4d64-87dd-4799abd5a947" width="400"/>
@@ -38,7 +38,7 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 
 
 
-### 📊 성능 결과
+### - 성능 결과
 - 다양한 **인코더–분류기 조합**을 실험 
 - **bprGCN + MLP**가 vanilla GCN + MLP 대비 일관된 성능 향상  
 - 전체 비교에서는 **GAT + MLP** 조합이 최고 성능  
@@ -57,7 +57,7 @@ DDI는 다약제 치료(polypharmacy) 상황에서 약물 간 상호작용이 �
 - 앞으로의 확장 방향:  
   - 실제 제약 분야 활용을 위한 **설명 가능성(Explainability)** 강화  
 
-### ✔️ 실행 방법
+### - 실행 방법
 #### Phase 1 — 노드 임베딩 학습
 ```bash
 bash run_1_encoder.sh
